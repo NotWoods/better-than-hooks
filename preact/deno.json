@@ -1,6 +1,12 @@
 {
   "name": "@better-than-hooks/preact",
   "version": "0.0.1",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^0.226.0",
+    "@testing-library/preact": "npm:@testing-library/preact@^3.2.4",
+    "preact": "npm:preact@^10.22.1",
+    "preact/hooks": "npm:preact@^10.22.1/hooks"
+  },
   "exports": {
     ".": "./mod.ts"
   }

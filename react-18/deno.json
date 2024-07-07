@@ -1,6 +1,10 @@
 {
   "name": "@better-than-hooks/react-18",
   "version": "0.0.1",
+  "imports": {
+    "preact": "npm:react@^10.22.1",
+    "preact/hooks": "npm:react@^10.22.1"
+  },
   "exports": {
     ".": "./mod.ts"
   }
