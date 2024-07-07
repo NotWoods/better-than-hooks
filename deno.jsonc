@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "useUnknownInCatchVariables": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "imports": {
+    "preact": "npm:preact@^10.22.1",
+    "react-18": "npm:react@^18.3.1"
+  },
+  "tasks": {},
+  "lint": {
+    "rules": {
+      "include": [
+        "camelcase",
+        "eqeqeq",
+        "no-eval",
+        "no-non-null-asserted-optional-chain",
+        "no-sync-fn-in-async-fn",
+        "no-throw-literal",
+        "single-var-declarator",
+        "verbatim-module-syntax"
+      ]
+    }
+  },
+  "workspaces": ["./core"]
+}
