@@ -25,7 +25,8 @@
         "no-throw-literal",
         "single-var-declarator",
         "verbatim-module-syntax"
-      ]
+      ],
+      "exclude": ["no-window"]
     }
   },
   "workspaces": ["./core"]
